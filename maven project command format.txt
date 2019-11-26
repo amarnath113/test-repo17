@@ -1,0 +1,13 @@
+mvn archetype:generate -DgroupId=com.companyname.automobile -DartifactId=trucks -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+<dependency>
+    <groupId>org.apache.maven.archetypes</groupId>
+    <artifactId>maven-archetype-webapp</artifactId>
+    <version>1.0</version>
+</dependency>
+
+mvn archetype:generate -DgroupId=com.companyname.bank -DartifactId=consumerbanking -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+mvn archetype:generate -DgroupId=com.companyname.IT -DartifactId=software -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
