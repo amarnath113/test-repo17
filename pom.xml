@@ -7,13 +7,6 @@
   <version>1.0-SNAPSHOT</version>
   <name>software Maven Webapp</name>
   <url>http://maven.apache.org</url>
- 
-    <version>2.4</version>
-    <configuration>
-        <failOnMissingWebXml>false</failOnMissingWebXml>
-    </configuration>
-</plugin>
-  <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
