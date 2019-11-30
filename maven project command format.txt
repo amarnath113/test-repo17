@@ -8,6 +8,3 @@ mvn archetype:generate -DgroupId=com.companyname.automobile -DartifactId=trucks 
 
 mvn archetype:generate -DgroupId=com.companyname.bank -DartifactId=consumerbanking -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
-
-mvn archetype:generate -DgroupId=com.companyname.IT -DartifactId=software -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
-

@@ -13,7 +13,7 @@
 
           <target name="package" depends="compile"> 
            <echo>java package task</echo> 
-           <jar basedir="build/classes" destfile="build/jar/helloworld.jar">
+           <jar basedir="build/classes" destfile="build/jar/helloworld3.jar">
            <manifest>
            <attribute name="Main-class" value="hello1"/>
            </manifest>
@@ -22,6 +22,6 @@
 
        <target name="run" depends="package">
        <echo>running jar files task</echo>
-       <java jar="build/jar/helloworld.jar" fork="true"/>
+       <java jar="build/jar/helloworld3.jar" fork="true"/>
        </target>
        </project> 
